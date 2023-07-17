@@ -1,0 +1,105 @@
+/*
+styled my elements using class styling 
+*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.hangmanH{
+    text-align: center;
+    font-family: cursive;
+    
+}
+
+.helpBtn{
+    text-align: right;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.help{
+    background-color: lightgreen !important;
+    border: 0px !important;
+    cursor: pointer;
+    padding: 10px 12px;
+}
+
+.popup{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupInner{
+    text-align: center;
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+}
+
+.closeBtn{
+    background-color: red !important;
+    border: 0px !important;
+    cursor: pointer;
+    padding: 10px 12px;
+    color: white;
+}
+
+.rules{
+    padding: 0px !important;
+    font-family: cursive;
+}
+
+.play{
+    background-color: lightskyblue !important;
+    border: 0px !important;
+    padding: 10px 30px !important;
+}
+
+.h3{
+    font-family: cursive;
+}
+
+.word{
+    display: flex;
+    justify-content: center;
+    text-decoration-style: dashed;
+}
+
+.wrong{
+    justify-content: center;
+    text-align: center;
+}
+
+.letter{
+    
+    margin-left: 5px;
+}
+
+.wrongLetters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+}
