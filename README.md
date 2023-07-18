@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Rules of the game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.This website will pick a random word.
+2.There will be a blank line for each letter in the word.
+3.You will start guessing letters by typing them in.
+4.If you guess the letter correctly, the letter will appear in its    correct space.
+5.If you guess wrong, a part of the hangman will be drawn.
+6.You will win if you are able to guess the entire word correctly.
+7.You will lose if the entire hangman is drawn.
 
-## Available Scripts
+# If you do not have Node.js installed
 
-In the project directory, you can run:
+follow this link for windows: https://nodejs.org/en/download
+follow this link and instructions for linux/wsl users: 
+https://heynode.com/tutorial/install-nodejs-locally-nvm/
+follow this link and instructions for mac users: 
+https://formulae.brew.sh/formula/node
 
-### `npm start`
+Instructions for linux/WSL:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+follow instructions from link
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Instructions for mac:
 
-### `npm test`
+follow instructions from link and once your terminal is open type
+'brew install node'
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instructions for windows:
 
-### `npm run build`
+after clicking the link you will be presented with a set of download
+options, you need to choose the windows installer and depending
+on the system you running, you must choose either 64bit or
+32bit.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+once downloaded you need to open the file and you just need to accept and click next
+on the pages that show up.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+now that everything is installed, you can follow the next instruction in this README.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# How to install and run app
 
-### `npm run eject`
+To install and run this project you will need to download the entire
+project off GitHub
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once the folder has been downloaded, open command prompt on your
+local machine and type 
+'cd (and the directory path to the folder you downloaded)'
+you can get that directory by opening the folder and copying the path
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once that is done all you need to do is type 'npm start'
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

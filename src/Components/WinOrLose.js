@@ -40,11 +40,13 @@ function WinOrLose(props){
     //for the else if but instead it looks to see if the outcome of the function above == "lose"
     if(CheckWinOrLose( props.correctLetters, props.wrongLetters, props.chosenWord) === 'win'){
         message = 'Congratulations, You have Won!';
+        props.setPlayable(false);
     
     }
     else if(CheckWinOrLose( props.correctLetters, props.wrongLetters, props.chosenWord) === 'lose'){
         message = 'Unfortunately you have lost...';
         messageWord = `The word was: ${props.chosenWord}`; 
+        props.setPlayable(false);
     }
 
     //created another function that will refresh the page by a click of the button
